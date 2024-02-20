@@ -102,7 +102,7 @@ const questions = [
     },
 ];
 
-// function that writes the svg file
+// writes svg file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, error => {
         if (error) {
@@ -115,7 +115,7 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer
-        // function that prompts user to answer questions
+        //user answer questions
         .prompt(questions)
         // responses of user then passed to the writeToFile function
         .then(data => {
