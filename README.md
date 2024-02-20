@@ -1,1 +1,1 @@
-# SVG_Maker
+# SVG-logo-maker
